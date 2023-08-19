@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+.inputMain{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    height:auto;
+    width:350px;
+}
+
+.inputLabel{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.inputPart{
+   height:50px;
+}
+
+.inputMain button{
+    margin-top:20px;
+    height:50px;
+    cursor: pointer;
+}
+
+.inputMain input{
+    cursor:pointer;
+    outline:none
+}
+
+.summary{
+    display:flex;
+    flex-direction: column;
+    width:200px;
+    border:1px solid black;
+}
+
+.summaryIncome{
+    list-style-type: none;
+}
+
+.summaryExpense{
+    list-style-type: none;
+}
+
+p{
+    display:flex;
+    justify-content: space-between;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.center-summary{
+    display: flex;
+    justify-content: center;
+    width:350px;
+    height:auto;
+    margin-bottom:15px;
+}
